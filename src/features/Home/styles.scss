@@ -1,0 +1,14 @@
+@import '../../sass/variables.scss';
+
+.home-wrapper {
+  display: flex;
+  background-color: $primary-background;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  .home-header {
+    color: $primary-header;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+  }
+}
