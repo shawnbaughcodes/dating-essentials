@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Dating = () => {
+const Chat = () => {
   return (
     <div>
-      <h1>Dating</h1>
+      <h1>Chat</h1>
     </div>
   );
 };
 
-export default Dating;
+export default Chat;

@@ -1,14 +1,72 @@
 @import '../../sass/variables.scss';
 
-.home-wrapper {
+.home--wrapper {
   display: flex;
-  background-color: $primary-background;
-  width: 100%;
+  height: 80%;
   justify-content: center;
   align-items: center;
-  .home-header {
-    color: $primary-header;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
+  // flex-direction: column;
+  background-color: $primary-background;
+  width: 100%;
+  color: #000000;
+}
+
+.match-swipe-card--wrapper {
+  width: 20rem;
+  height: 40rem;
+  background-color: #EFFFFC;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 30px;
+  border-top-right-radius: 10px;
+  // padding-bottom: 20px;
+  .match-swipe-card--name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 4rem;
+    background-color: #FFFFFF;
+    // border-radius: 15px;
+    border-top-right-radius: 10px;
+    box-shadow: inset -0.5px -0.2px 5px #000;
+    .match-swipe-card--name-text {
+      text-align: center;
+      margin: 0 0 0 1rem;
+      color: red;
+    }
+    .match-swipe-card--age-text {
+      text-align: center;
+      margin: 0 0 0 1rem;
+      color: red;
+      font-size: 14px;
+    }
+
+  }
+  .match-swipe-card--image-wrapper {
+    height: 30rem;
+    width: 100%;
+    background-color: #c776c7;
+    .match-swipe-card--image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .match-swipe-card--about-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    .match-swipe-card--about-header {
+      font-size: 40px;
+      margin: 0 0 0 10px;
+    }
+    .match-swipe-card--about-content {
+      font-size: 14px;
+      margin: 0 10px;
+    }
+  }
+  .match-swipe-card--prompt-wrapper {
+    width: 100%;
+    background-color: #ffffff;
   }
 }

@@ -1,0 +1,24 @@
+@import '../../sass/variables.scss';
+.menu-wrapper {
+	position: absolute;
+	bottom: 2rem;
+	right: 2.6rem;
+	margin-left: 50%;
+	width: 14rem;
+	height: 3.5rem;
+	border-radius: 75px;
+	background-color: $white;
+	box-shadow: 0px 0px 5px 1px $greyish;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+
+	.menu-icon {
+		width: 25px;
+		height: 25px;
+	}
+	.menu-icon:active {
+		padding: 2px 0 0 2px;
+	}
+}

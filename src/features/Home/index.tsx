@@ -1,10 +1,13 @@
 import React from 'react';
 import './styles.scss';
+import MatchSwipe from './MatchSwipe';
+import MatchList from './MatchList';
 
 const Home = () => {
   return (
-    <div className="home-wrapper">
-      <h1 className="home-header">Home</h1>
+    <div id="page-wrap" className="home--wrapper">
+      <MatchSwipe />
+      {/* <MatchList /> */}
     </div>
   );
 };
